@@ -1,0 +1,23 @@
+html{
+	background: url(img.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body{
+	font-family: 'Futura';
+	font-weight:light;
+	color:white;
+}
+h1{
+	color:tomato;
+}
+.top{
+	padding:50px;
+	margin-top:100px;
+	text-align:center;
+}
+.section{
+	text-align:center;
+}

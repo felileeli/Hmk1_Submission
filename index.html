@@ -1,0 +1,49 @@
+<!doctype.html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<title>ASSIGN1</title>
+	<link rel="stylesheet" href="style.css" >
+	<script rel="javascript" type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+</script>
+</div>
+
+<div class="top">
+	<h1>What are the Activities I like to do in my free time?</h1>
+	<h3>During the Weekends, I like to
+	<p id="demo"></p>
+<script>
+	var activities = [
+    "Exercise Yoga",
+    "Read",
+    "Doodle",
+    "Handcraft"
+];
+	var text="";
+	var i;
+	for(i=0; i<activities.length;i++){
+		text+= activities[i]+"<br>"
+	}
+document.getElementById("demo").innerHTML = text;
+</script>
+</div>
+<div class="section">
+	<h3>Click to confirm that you have done it this weekend</h3>
+	<img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" width="100" height="180" >
+<script>
+	function changeImage(){
+		var image = document.getElementById('myImage');
+		if(image.src.match("bulbon")){
+			image.src="pic_bulboff.gif";
+		} else{
+			image.src="pic_bulbon.gif"
+		}
+	}
+</script>
+</div>
+</body>
+</html>
